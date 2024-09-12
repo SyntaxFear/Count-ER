@@ -1,13 +1,6 @@
-import Head from "next/head";
-
 export default function Home() {
   return (
     <div className="relative flex flex-col items-center justify-center min-h-screen overflow-hidden bg-black text-white">
-      <Head>
-        <title>Something Amazing - Coming Soon</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
       {/* Background gradient and shapes */}
       <div className="absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-black"></div>
       <div className="absolute top-0 left-0 w-1/3 h-1/3 bg-gradient-to-br from-purple-500/10 to-transparent rounded-full filter blur-3xl"></div>
