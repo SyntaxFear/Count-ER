@@ -32,16 +32,16 @@ function Hero() {
           expert services in Audit, Tax, and Advisory drive your success and
           empower growth.
         </p>
-        <div className="flex flex-col sm:flex-row gap-4">
+        <div className="flex flex-col sm:flex-row gap-4 items-center sm:items-start">
           <Link
             href={"#about"}
-            className="bg-green-500 hover:bg-green-600 transition-all text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full text-sm sm:text-base lg:text-lg font-semibold shadow-lg hover:shadow-xl"
+            className="w-auto max-w-[200px] text-center bg-green-500 hover:bg-green-600 transition-all text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full text-sm sm:text-base lg:text-lg font-semibold shadow-lg hover:shadow-xl"
           >
             Company
           </Link>
           <Link
             href={"#team"}
-            className="bg-transparent border-2 border-white hover:bg-white hover:text-green-800 transition-all text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full text-sm sm:text-base lg:text-lg font-semibold"
+            className="w-auto max-w-[200px] text-center bg-transparent border-2 border-white hover:bg-white hover:text-green-800 transition-all text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full text-sm sm:text-base lg:text-lg font-semibold"
           >
             Team
           </Link>
