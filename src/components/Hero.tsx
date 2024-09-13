@@ -23,13 +23,14 @@ function Hero() {
           MAZ AND PARTNERS
         </h2>
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-4 sm:mb-6 leading-tight">
-          Transforming Finance
+          Transforming Business
           <br />
-          <span className="text-green-400">Empowering Growth</span>
+          <span className="text-green-400">Through Financial Expertise</span>
         </h1>
         <p className="mb-6 sm:mb-8 text-sm sm:text-base md:text-lg lg:text-2xl max-w-3xl font-light">
-          Innovative accounting solutions tailored for modern businesses. We
-          don&apos;t just crunch numbers – we drive your success.
+          Comprehensive financial solutions tailored for modern businesses. Our
+          expert services in Audit, Tax, and Advisory drive your success and
+          empower growth.
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
           <Link
