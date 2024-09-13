@@ -25,7 +25,7 @@ const Header: React.FC = () => {
           <nav className="hidden md:flex space-x-8">
             {navItems.map((item) => (
               <Link key={item.name} href={item.href}>
-                <span className="text-gray-800 hover:text-indigo-600 transition duration-300 ease-in-out font-semibold text-lg">
+                <span className="text-gray-800 hover:text-green-400 transition duration-300 ease-in-out font-semibold text-lg">
                   {item.name}
                 </span>
               </Link>
@@ -35,7 +35,7 @@ const Header: React.FC = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="text-gray-800 hover:text-indigo-600 focus:outline-none transition duration-300 ease-in-out"
+              className="text-gray-800 hover:text-green-400 focus:outline-none transition duration-300 ease-in-out"
             >
               {isMenuOpen ? (
                 <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">

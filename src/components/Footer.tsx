@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -8,13 +9,18 @@ function Footer() {
     <footer className="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white py-6 px-4 sm:px-6 md:px-8 lg:px-12">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center">
         {/* Logo */}
-        <div className="mb-4 md:mb-0">
+        <div
+          className="mb-4 md:mb-0"
+          onClick={() => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+          }}
+        >
           <Image
             src={logo}
             alt="Company Logo"
             width={120}
             height={40}
-            className="brightness-0 invert"
+            className="brightness-0 invert cursor-pointer"
           />
         </div>
 
