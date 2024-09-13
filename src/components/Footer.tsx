@@ -30,7 +30,7 @@ function Footer() {
             <li>
               <Link
                 href="#about"
-                className="hover:text-green-400 transition-colors duration-300 text-sm"
+                className="hover:text-blue-400 transition-colors duration-300 text-sm"
               >
                 About Company
               </Link>
@@ -38,7 +38,7 @@ function Footer() {
             <li>
               <Link
                 href="#team"
-                className="hover:text-green-400 transition-colors duration-300 text-sm"
+                className="hover:text-blue-400 transition-colors duration-300 text-sm"
               >
                 Our Team
               </Link>

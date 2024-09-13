@@ -6,19 +6,19 @@ function OurTeam() {
   return (
     <section
       id="team"
-      className="py-20 px-4 sm:px-6 md:px-8 lg:px-12 bg-gradient-to-br from-white to-green-50"
+      className="py-20 px-4 sm:px-6 md:px-8 lg:px-12 bg-gradient-to-br from-white to-blue-50"
     >
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl sm:text-5xl font-bold mb-16 text-gray-800 text-center animate-fadeIn">
-          Our <span className="text-green-600">Team</span>
+          Our <span className="text-blue-600">Team</span>
         </h2>
         <div className="flex flex-col-reverse lg:flex-row items-center gap-16 animate-fadeIn">
           <div className="w-full lg:w-2/3">
             <h3 className="text-3xl font-bold mb-4 text-gray-800 animate-slideInLeft">
               Giorgi Shavgulidze
             </h3>
-            <h4 className="text-xl text-green-600 mb-6 animate-slideInLeft delay-100">
-              Founder & Managing Partner
+            <h4 className="text-xl text-blue-600 mb-6 animate-slideInLeft delay-100">
+              Managing Partner
             </h4>
             <div className="space-y-4">
               <p className="text-gray-600 leading-relaxed animate-slideInUp delay-200">
@@ -60,6 +60,23 @@ function OurTeam() {
               layout="responsive"
               className="rounded-2xl shadow-2xl"
             />
+          </div>
+        </div>
+
+        {/* New section with two columns */}
+        <div className="mt-20 grid grid-cols-1 md:grid-cols-2 gap-16">
+          <div className="animate-fadeIn">
+            <h3 className="text-3xl font-bold mb-4 text-gray-800">Founders</h3>
+            <ul className="list-disc list-inside space-y-2 text-gray-600">
+              <li>Giorgi Shavgulidze</li>
+              <li>Giorgi Gikashvili</li>
+            </ul>
+          </div>
+          <div className="animate-fadeIn">
+            <h3 className="text-3xl font-bold mb-4 text-gray-800">
+              Managing Partner
+            </h3>
+            <p className="text-gray-600">Giorgi Shavgulidze</p>
           </div>
         </div>
       </div>

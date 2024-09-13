@@ -6,7 +6,7 @@ function AboutCompany() {
   return (
     <section
       id="about"
-      className="py-20 px-4 sm:px-6 md:px-8 lg:px-12 bg-gradient-to-br from-white to-green-50"
+      className="py-20 px-4 sm:px-6 md:px-8 lg:px-12 bg-gradient-to-br from-white to-blue-50"
     >
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row items-center gap-16 animate-fadeIn">
@@ -23,7 +23,7 @@ function AboutCompany() {
           <div className="w-full lg:w-1/2">
             <h2 className="text-4xl sm:text-5xl font-bold mb-8 text-gray-800 leading-tight animate-slideInRight">
               Empowering Your{" "}
-              <span className="text-green-600">Financial Future</span>
+              <span className="text-blue-600">Financial Future</span>
             </h2>
             <p className="text-gray-600 mb-6 leading-relaxed text-lg animate-slideInUp delay-200">
               We are a newly established audit firm built on a foundation of
@@ -38,6 +38,10 @@ function AboutCompany() {
               compliance, and sustainable growth. With a strong focus on
               integrity, professionalism, and a client-centered approach, we are
               your trusted partners in achieving financial excellence.
+            </p>
+            <p className="text-gray-600 leading-relaxed text-lg animate-slideInUp delay-400 mt-2">
+              Maz and Partners LLC (Reg.# SARAS-F-846745), a company
+              incorporated under the Laws of Georgia
             </p>
           </div>
         </div>
