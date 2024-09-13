@@ -15,8 +15,17 @@ export default function Home() {
           Prepare for Launch
         </h2>
         <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-8 sm:mb-12 text-gray-400 leading-relaxed">
-          Coming soon: Expert accounting services. We are crunching numbers to
-          build a solid foundation for your financial success. Stay tuned!
+          We are a newly established audit firm built on a foundation of
+          extensive expertise and a commitment to excellence. Our partners bring
+          over 13 years of experience working with leading international audit
+          firms, providing deep industry knowledge and a global perspective. We
+          are dedicated to delivering high-quality audit, advisory, and
+          assurance services tailored to meet the unique needs of each client.
+          Our mission is to help businesses navigate complex financial
+          landscapes with clarity and confidence, ensuring transparency,
+          compliance, and sustainable growth. With a strong focus on integrity,
+          professionalism, and a client-centered approach, we are your trusted
+          partners in achieving financial excellence.
         </p>
         <div className="space-y-4 sm:space-y-0 sm:space-x-4 flex flex-col sm:flex-row justify-center">
           <a
