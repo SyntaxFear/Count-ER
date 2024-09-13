@@ -28,7 +28,7 @@ function AboutCompany() {
             <p className="text-gray-600 mb-6 leading-relaxed text-lg animate-slideInUp delay-200">
               We are a newly established audit firm built on a foundation of
               extensive expertise and a commitment to excellence. Our partners
-              bring over 13 years of experience working with leading
+              bring over 14 years of experience working with leading
               international audit firms, providing deep industry knowledge and a
               global perspective.
             </p>
