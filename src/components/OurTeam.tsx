@@ -102,7 +102,7 @@ function OurTeam() {
                 />
               </svg>
               <span className="text-gray-700 transition-colors duration-300 hover:text-blue-600">
-                +555 764 364
+                +995 555 764 364
               </span>
             </div>
             <div className="flex items-center gap-3 bg-white rounded-full px-6 py-3 shadow-md transition-all duration-300 hover:shadow-lg hover:bg-blue-50 hover:scale-105 cursor-pointer">
