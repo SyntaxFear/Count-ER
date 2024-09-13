@@ -15,8 +15,9 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Something Amazing - Coming Soon",
-  description: "Something Amazing - Coming Soon",
+  title: "MAZ AND PARTNERS",
+  description:
+    "Innovative accounting solutions tailored for modern businesses. We don't just crunch numbers – we drive your success.",
 };
 
 export default function RootLayout({
