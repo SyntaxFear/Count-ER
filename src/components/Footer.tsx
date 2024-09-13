@@ -43,6 +43,14 @@ function Footer() {
                 Our Team
               </Link>
             </li>
+            <li>
+              <Link
+                href="#contact"
+                className="hover:text-blue-400 transition-colors duration-300 text-sm"
+              >
+                Contact US
+              </Link>
+            </li>
           </ul>
         </nav>
 
