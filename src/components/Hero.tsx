@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import heroImage from "../../asset/hero.jpg";
+import heroImage from "../../asset/hero.webp";
 import Link from "next/link";
 
 function Hero() {
@@ -17,7 +17,7 @@ function Hero() {
           objectFit="cover"
           quality={100}
           priority
-          className="rounded-3xl"
+          className="rounded-3xl brightness-50"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black to-transparent opacity-70 rounded-3xl"></div>
       </div>
