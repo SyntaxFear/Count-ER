@@ -67,9 +67,6 @@ function OurTeam() {
             />
           </div>
         </div>
-        <p className="text-xl font-semibold text-gray-800 text-center mb-20">
-          Giorgi Shavgulidze
-        </p>
 
         {/* Giorgi Gikashvili */}
         <div className="flex flex-col lg:flex-row items-center gap-16 animate-fadeIn mb-20">
@@ -103,9 +100,6 @@ function OurTeam() {
             </div>
           </div>
         </div>
-        <p className="text-xl font-semibold text-gray-800 text-center mb-20">
-          Giorgi Gikashvili
-        </p>
 
         {/* New section with two columns */}
         <div className="mt-20 grid grid-cols-1 md:grid-cols-2 gap-16">
